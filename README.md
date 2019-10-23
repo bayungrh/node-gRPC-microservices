@@ -3,12 +3,13 @@
 Example of using NodeJS for Microservices using gRPC
 
 ### Prerequisites
-------------
+
 - NodeJS
 - MongoDB
 - Docker
 
 ### Setup
+
 - Run mongodb on default port 27017
 - Install packages
 ```bash 
@@ -24,6 +25,7 @@ $ npm run test
 ```
 
 ### Setup with Docker
+
 - Run MongoDB container on default port 27017
 ```bash
 $ docker run -dt -p 27017:27017 --name mongodb mongo
