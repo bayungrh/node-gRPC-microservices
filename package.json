@@ -1,0 +1,32 @@
+{
+  "name": "node-grpc-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhBayu/node-gRPC-microservice.git"
+  },
+  "keywords": [
+    "grpc",
+    "microservice",
+    "nodejs"
+  ],
+  "author": "MuhBayu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhBayu/node-gRPC-microservice/issues"
+  },
+  "homepage": "https://github.com/MuhBayu/node-gRPC-microservice#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.2",
+    "chai": "^4.2.0",
+    "grpc": "^1.24.0",
+    "mocha": "^6.2.2",
+    "mongoose": "^5.7.6"
+  }
+}
