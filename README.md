@@ -32,9 +32,9 @@ $ docker run -dt -p 27017:27017 --name mongodb mongo
 ```
 - Build Docker Images
 ```bash
-$ docker build -t node-grpc-microservices .
+$ docker build -t muhbayu/node-grpc-microservices .
 ```
 - Run Docker Container
 ```bash
-$ docker run -dt -p 50051:50051 --name product-service node-grpc-microservices
+$ docker run -dt -p 50051:50051 --name product-service muhbayu/node-grpc-microservices
 ```
